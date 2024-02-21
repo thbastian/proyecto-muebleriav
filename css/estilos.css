@@ -36,13 +36,18 @@ header{
     margin-top: 10px
 }
 .slide img{
- height: 65vh;
+    height: 65vh;
 }
 .h1{
     text-align: center;
     color: black;
     background-color: burlywood;
-   
+}
+
+container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 div.galeria{
@@ -50,8 +55,6 @@ div.galeria{
     box-shadow: 0 4px 8px 0 lightskyblue, 0 6px 20px 0 rgba(0 0 0 0 19);
     display: inline-block;
     width: 350px;
-   
-   
 }
 div.galeria img{
     border: 1px solid lightcoral;
@@ -77,10 +80,8 @@ footer {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 50px;
-  
 }
 .pie-pagina .grupo-1 .box figure{
-  
 width: 100%;
 height: 100%;
 display: flex;
@@ -91,11 +92,9 @@ align-items: center;
     width: 150px;
 }
 .pie-pagina .grupo-1 .box h2{
-   
     color: #fff;
     margin-bottom: 25px;
     font-size: 20px;
-
 }
 .pie-pagina .grupo-1 .box p{
     color: #efefef;
@@ -125,7 +124,6 @@ align-items: center;
 .pie-pagina .grupo-2 small{
     font-size: 15px;
 }
- 
 
 .form{
     background-color: blanchedalmond;
